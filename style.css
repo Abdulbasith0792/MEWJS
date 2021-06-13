@@ -1,48 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.item1{
+    grid-area: header;
 }
 
-body{
-    background-color: #a9a9a9;
-    padding: 14px;
-   
+.item2{
+    grid-area:menu;
 }
-
-.nav{
-    background-color: #c23a36;
-    overflow: hidden;
-    border-radius: 3%/45%;
+.item3{
     
 }
-
-
-.nav a{
-    text-decoration: none;
-    float: left;
-    padding:14px 16px;
-    margin-left: 20px;
-    color: #f2f2f2;
-    text-align: center;
-    font-size: 17px;
-}
-
-.nav a:hover{
-    background-color: #20141421;
-    border-radius: 20%/50%;
-}
-
-.login-container{
-    float: right;
-    margin-top: 14px;
-    margin-right: 14px;
-    font-size: 17px;
-    border-radius: 14px;
-    cursor: pointer;
-}
-
-
-
 
 
